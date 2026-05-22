@@ -18,10 +18,10 @@ const TODAY          = "May 22, 2026";
 const VALID_UNTIL    = "June 5, 2026";
 const PROPERTY       = "308 E F St — Russellville, AR 72802";
 const CONTRACTOR_TEL = "(501) 269-7199";
-const OWNER_EMAIL    = "lucov.gutierrez@gmail.com";
+const FORMSUBMIT_TOKEN = "43a9145f70b74790fdbe1f53f5a3ffda";
 
 // Sends the client's selection to your email.
-const SUBMIT_URL     = `https://formsubmit.co/ajax/${OWNER_EMAIL}`;
+const SUBMIT_URL     = `https://formsubmit.co/ajax/${FORMSUBMIT_TOKEN}`;
 // ─────────────────────────────────────────────────────────────────────────────
 
 const PREP = [
